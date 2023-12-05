@@ -1,9 +1,9 @@
 form {
     align-self: center;
-    background-color: red;
-    width: 28em;
+    min-width: 28vw;
     height: 2.2em;
     display: flex;
+    border: 1px solid grey;
 }
 
 form input {
@@ -13,6 +13,10 @@ form input {
     border: none;
     padding: 1em;
     background-color: #F0F0F0;
+}
+
+form input:focus {
+    outline: none;
 }
 
 form button {

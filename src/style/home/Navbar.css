@@ -1,11 +1,16 @@
 nav {
-    padding: 0 0 0 3em;
+    padding: 0.8em 0 0.8em 3em;
     display: flex;
     justify-content: space-between;
     box-shadow: 0px 1px 10px 2px lightgray;
+    background-color: #FFF;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    flex-shrink: 0;
 }
 
-.logo {
+.home .logo {
     transform: scale(3.0);
     padding-top: 0.3em;
     padding-left: 0.5em;
@@ -24,14 +29,19 @@ nav ul {
 
 #options li {
     cursor: pointer;
-    margin-right: 4em;
+    margin-right: 4vw;
     display: flex;
     align-items: center;
     font-size: 1em;
     font-weight: 600;
 }
 
-#options li:hover {
+#options li .options {
+    color: #000;
+    text-decoration: none;
+}
+
+#options li .options:hover {
     color: #FFC107;
     transition: all 0.3s ease 0s;
 }
@@ -41,7 +51,12 @@ nav ul {
     transform: scale(1.4);
 }
 
-nav ul #title h2 {
+.home {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul #title .home h2 {
     padding-left: 2.0em;
     margin: 0;
     align-self: center;

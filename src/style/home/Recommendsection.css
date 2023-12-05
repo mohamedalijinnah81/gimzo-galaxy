@@ -1,0 +1,32 @@
+.recommend {
+    display: flex;
+    flex-direction: column;
+}
+
+.recommend h2 {
+    margin: 0;
+    color: #FFC107;
+}
+
+.recommend ul {
+    list-style: none;
+    padding-left: 2vw;
+    margin-top: 1.2em;
+}
+
+.recommend ul li {
+    margin-bottom: 1vh;
+}
+
+.recommend ul li .categories {
+    font-size: 1.1em;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.recommend ul li .categories:hover {
+    color: #FFC107;
+}

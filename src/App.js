@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import Navbar from './components/home/Navbar.js';
+import Sidebar from './components/home/Sidebar.js';
 
 function App() {
   const [searchItem, setSearchItem] = useState('');
@@ -15,6 +16,7 @@ function App() {
         setSearchItem = {setSearchItem}
         handleSubmit = {handleSubmit}
       />
+      <Sidebar />
     </div>
   );
 }

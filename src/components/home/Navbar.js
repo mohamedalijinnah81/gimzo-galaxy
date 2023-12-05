@@ -5,17 +5,21 @@ import Searchbar from './Searchbar';
 import { BiSolidOffer } from "react-icons/bi";
 import { FaUser } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Navbar = ({ searchItem, setSearchItem, handleSubmit }) => {
   return (
     <nav>
       <ul>
         <li>
-          <FcElectronics className='logo'/>
+          <Link to={'/'} className='home'>
+            <FcElectronics className='logo'/>
+          </Link>
         </li>
         <li id='title'>
-          <h2>GimzoGalaxy</h2>
+          <Link to={'/'} className='home'>
+            <h2>GimzoGalaxy</h2>
+          </Link>
         </li>
       </ul>
       <Searchbar 
@@ -25,22 +29,28 @@ const Navbar = ({ searchItem, setSearchItem, handleSubmit }) => {
       />
       <ul id='options'>
         <li>
-          <BiSolidOffer 
-            className='nav-icon'
-          />
-          Offers
+          <Link to={'/offers'} className='options'>
+            <BiSolidOffer 
+              className='nav-icon'
+            />
+            Offers
+          </Link>
         </li>
         <li>
-          <FaUser 
-            className='nav-icon'
-          />
-          Account
+          <Link to={'/account'} className='options'>
+            <FaUser 
+              className='nav-icon'
+            />
+            Account
+          </Link>
         </li>
         <li>
-          <FaShoppingCart 
-            className='nav-icon'
-          />
-          Cart
+          <Link to={'/cart'} className='options'>
+            <FaShoppingCart 
+              className='nav-icon'
+            />
+            Cart
+          </Link>
         </li>
       </ul>
     </nav>
