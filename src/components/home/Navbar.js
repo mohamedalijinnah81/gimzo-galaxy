@@ -40,6 +40,7 @@ const Navbar = ({ searchItem, setSearchItem, handleSubmit }) => {
           <FaShoppingCart 
             className='nav-icon'
           />
+          Cart
         </li>
       </ul>
     </nav>
