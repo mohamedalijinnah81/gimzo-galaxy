@@ -4,7 +4,7 @@ import Slide5 from '../../../assets/home/slide2.jpg'
 import Slide1 from '../../../assets/home/slide3.jpg'
 import Slide4 from '../../../assets/home/slide4.jpg'
 import Slide2 from '../../../assets/home/slide5.webp'
-import '../../../style/home/modules/Topdeals.css'
+import '../../../style/home/Topdeals.css'
 import { FaChevronLeft } from "react-icons/fa";
 import { FaChevronRight } from "react-icons/fa";
 import { Link } from 'react-router-dom'

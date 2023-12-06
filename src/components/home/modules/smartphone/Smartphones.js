@@ -2,9 +2,11 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import Listitems from './Listitems';
 import '../../../../style/home/modules/Smartphones.css'
+import Listskeleton from './Listskeleton';
 
 const Smartphones = () => {
     const [items, setItems] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
     useEffect(() => {
         async function fetchData() {
           const options = {
@@ -23,6 +25,7 @@ const Smartphones = () => {
                 const listItems = response.data.results;
                 setItems(listItems);
                 console.log(listItems[0]);
+                setIsLoading(false);
             } catch (error) {
                 console.error(error);
             }
@@ -30,13 +33,16 @@ const Smartphones = () => {
         fetchData();
     }, [])
     
+    
+
     // console.log(items);
   return (
     <div className='smartphones'>
         <h2>Smartphones</h2>
-        <Listitems 
+        {isLoading && <Listskeleton />}
+        {!isLoading && <Listitems 
           items = {items}
-        />
+        />}
     </div>
   )
 }
