@@ -1,7 +1,7 @@
 import React from 'react'
 import { FcElectronics } from "react-icons/fc";
-import '../../style/home/Navbar.css'
-import Searchbar from './Searchbar';
+import '../../../style/home/navbar/Navbar.css'
+import Searchbar from './Searchbar.js';
 import { BiSolidOffer } from "react-icons/bi";
 import { FaUser } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";

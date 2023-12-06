@@ -1,8 +1,8 @@
 import React from 'react'
-import Recommendsection from './Recommendsection'
+import Recommendsection from './categories/Recommendsection'
 import '../../style/home/Sidebar.css'
-import Categories from './Categories'
-import Appliances from './Appliances'
+import Categories from './categories/Categories'
+import Appliances from './categories/Appliances'
 
 const Sidebar = () => {
   return (

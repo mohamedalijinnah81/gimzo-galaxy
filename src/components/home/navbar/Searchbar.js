@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import { FaSearch } from "react-icons/fa";
-import '../../style/home/Searchbar.css'
+import '../../../style/home/navbar/Searchbar.css'
 
 
 const Searchbar = ({ searchItem, setSearchItem, handleSubmit }) => {
@@ -9,6 +9,7 @@ const Searchbar = ({ searchItem, setSearchItem, handleSubmit }) => {
     <form className='searchbar' onSubmit={handleSubmit}>
       <input 
         type="text" 
+        id='serachitem'
         ref={inputRef}
         value={searchItem}
         onChange={(e) => setSearchItem(e.target.value)}

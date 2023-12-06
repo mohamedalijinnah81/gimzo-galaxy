@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../style/home/Recommendsection.css'
+import '../../../style/home/categories/Recommendsection.css'
 import { Link } from 'react-router-dom'
 
 const Recommendsection = () => {

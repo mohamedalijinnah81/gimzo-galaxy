@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import Slide3 from '../../assets/home/slide1.jpg'
-import Slide5 from '../../assets/home/slide2.jpg'
-import Slide1 from '../../assets/home/slide3.jpg'
-import Slide4 from '../../assets/home/slide6.jpg'
-import Slide2 from '../../assets/home/slide5.webp'
-import '../../style/home/Topdeals.css'
+import Slide3 from '../../../assets/home/slide1.jpg'
+import Slide5 from '../../../assets/home/slide2.jpg'
+import Slide1 from '../../../assets/home/slide3.jpg'
+import Slide4 from '../../../assets/home/slide4.jpg'
+import Slide2 from '../../../assets/home/slide5.webp'
+import '../../../style/home/modules/Topdeals.css'
 import { FaChevronLeft } from "react-icons/fa";
 import { FaChevronRight } from "react-icons/fa";
 import { Link } from 'react-router-dom'
