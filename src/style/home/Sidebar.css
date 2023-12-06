@@ -1,9 +1,10 @@
 .sidebar {
-    width: 16vw;
+    width: 16%;
     background-color: #F0F0F0;
     margin-top: 2vh;
     margin-left: 1vw;
     padding-left: 1vw;
+    padding-right: 1vw;
     padding-top: 1vh;
     border-radius: 8px;
 }

@@ -6,6 +6,8 @@
 .recommend h2 {
     margin: 0;
     color: #FFC107;
+    box-sizing: border-box;
+    font-size: 1.6vw;
 }
 
 .recommend ul {
@@ -19,7 +21,8 @@
 }
 
 .recommend ul li .categories {
-    font-size: 1.1em;
+    font-size: 1.2vw;
+    box-sizing: border-box;
     font-weight: 500;
     text-decoration: none;
     color: #000;

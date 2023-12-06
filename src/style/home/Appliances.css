@@ -7,6 +7,8 @@
     margin: 0;
     margin-top: 2vh;
     color: #FFC107;
+    box-sizing: border-box;
+    font-size: 1.6vw;
 }
 
 .appliances ul {
@@ -20,7 +22,8 @@
 }
 
 .appliances ul li .categories {
-    font-size: 1.1em;
+    font-size: 1.2vw;
+    box-sizing: border-box;
     font-weight: 500;
     text-decoration: none;
     color: #000;

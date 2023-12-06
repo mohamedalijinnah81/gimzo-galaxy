@@ -1,0 +1,56 @@
+.topdeals {
+    display: flex;
+    flex-direction: column;
+    padding: 1vh 1vw;
+    /* padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh; */
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    margin: 2vh 1vw;
+    width: 80vw;
+    box-shadow: 0px 3px 10px 2px lightgray;
+}
+
+.topdeals h2 {
+    margin: 0;
+    font-size: 1.5vw;
+    color: #FFC107;
+}
+
+img {
+    width: 80vw;
+    height: 38vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    margin-top: 1vw;
+}
+
+.slide-btn {
+    width: 3.5vw;
+    height: 3.5vw;
+    border: 3px solid #FFC107;
+    font-size: 1.2vw;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    color: #FFC107;
+}
+
+.slide-btn:hover {
+    background-color: #FFC107;
+    color: #FFF;
+}
+
+.prev {
+    position: absolute;
+    top: 27vw;
+    left: 18vw;
+}
+
+.next {
+    position: absolute;
+    top: 27vw;
+    right: 3vw;
+}

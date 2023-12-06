@@ -1,0 +1,10 @@
+.listmodules {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 2vh;
+    margin-left: 1vw; */
+    /* padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh; */
+    border-radius: 8px;
+}
