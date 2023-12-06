@@ -1,17 +1,18 @@
-import React, { useEffect, useState } from 'react'
-import axios from 'axios';
-import Listitems from '../Listitems.js';
-import '../../../../style/home/modules/Items.css'
+import React from 'react'
 import Listskeleton from '../Listskeleton';
+import Listitems from '../Listitems';
+import '../../../../style/home/modules/Items.css'
+import { useState, useEffect } from 'react';
+import axios from 'axios';
 
-const Smartphones = () => {
+const Laptops = () => {
     const [items, setItems] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
     useEffect(() => {
         async function fetchData() {
           const options = {
             method: 'GET',
-            url: 'https://amazon-scrapper17.p.rapidapi.com/search/smartphones',
+            url: 'https://amazon-scrapper17.p.rapidapi.com/search/laptops',
             params: {
               apiKey: '3c801d11ddb8472ee82c78036719fd15'
             },
@@ -32,19 +33,15 @@ const Smartphones = () => {
         }
         fetchData();
     }, [])
-    
-    
-
-    // console.log(items);
   return (
-    <div className='smartphones'>
-        <h2>Smartphones</h2>
+    <div className='laptops'>
+        <h2>Laptops</h2>
         {isLoading && <Listskeleton />}
         {!isLoading && <Listitems 
-          items = {items}
+            items = {items}
         />}
     </div>
   )
 }
 
-export default Smartphones
+export default Laptops

@@ -1,7 +1,7 @@
 import React from 'react'
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
-import '../../../../style/home/modules/Skeleton.css'
+import '../../../style/home/modules/Skeleton.css'
 
 const Listskeleton = () => {
   return (
