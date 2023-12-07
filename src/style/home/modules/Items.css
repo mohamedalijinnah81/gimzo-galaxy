@@ -1,11 +1,11 @@
-.smartphones, .laptops, .smartwatches, .earphones {
+.smartphones, .laptops, .smartwatches, .earphones, .cameras {
     /* background-color: #F0F0F0; */
     background-color: #FFF;
     margin-top: 2vw;
     margin-left: 1vw;
 }
 
-.smartphones ul, .laptops ul, .smartwatches ul, .earphones ul {
+.smartphones ul, .laptops ul, .smartwatches ul, .earphones ul, .cameras ul {
     list-style: none;
     margin-top: 0.4vw;
     display: flex;
@@ -13,7 +13,7 @@
     /* flex-wrap: wrap; */
 }
 
-.smartphones h2, .laptops h2, .smartwatches h2, .earphones h2 {
+.smartphones h2, .laptops h2, .smartwatches h2, .earphones h2, .cameras h2 {
     margin: 0;
     font-size: 1.5vw;
 }
@@ -23,7 +23,7 @@
     text-decoration: none;
 }
 
-.smartphones ul li, .laptops ul li, .smartwatches ul li, .earphones ul li {
+.smartphones ul li, .laptops ul li, .smartwatches ul li, .earphones ul li, .cameras ul li {
     padding: 0 1vw 0.6vw;
     background-color: #F0F0F0;
     margin-right: 1vw;
@@ -37,16 +37,16 @@
     transition: all 0.3s ease 0s;
 }
 
-.smartphones ul li:hover, .laptops ul li:hover, .smartwatches ul li:hover, .earphones ul li:hover {
+.smartphones ul li:hover, .laptops ul li:hover, .smartwatches ul li:hover, .earphones ul li:hover, .cameras ul li:hover {
     transform: scale(0.9);
 }
 
-.smartphones ul li img, .laptops ul li img, .smartwatches ul li img, .earphones ul li img {
+.smartphones ul li img, .laptops ul li img, .smartwatches ul li img, .earphones ul li img, .cameras ul li img {
     width: 11vw;
     height: 11vw;
 }
 
-.smartphones ul li h2, .laptops ul li h2, .smartwatches ul li h2, .earphones ul li h2 {
+.smartphones ul li h2, .laptops ul li h2, .smartwatches ul li h2, .earphones ul li h2, .cameras ul li h2 {
     font-size: 1.2vw;
     margin-top: 0.2vw;
 }

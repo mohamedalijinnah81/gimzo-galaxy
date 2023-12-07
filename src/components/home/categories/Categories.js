@@ -33,7 +33,7 @@ const Categories = () => {
                 </Link>
             </li>
             <li>
-                <Link to={'/category/accessories'} className='categories'>
+                <Link to={'/category/mobileaccessories'} className='categories'>
                     Accessories
                 </Link>
             </li>

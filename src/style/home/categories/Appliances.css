@@ -1,9 +1,9 @@
-.appliances {
+.appliances, .office, .gaming, .networking, .desktopcomponents {
     display: flex;
     flex-direction: column;
 }
 
-.appliances h2 {
+.appliances h2, .office h2, .gaming h2, .networking h2, .desktopcomponents h2 {
     margin: 0;
     margin-top: 2vh;
     color: #FFC107;
@@ -11,17 +11,17 @@
     font-size: 1.6vw;
 }
 
-.appliances ul {
+.appliances ul, .office ul, .gaming ul, .networking ul, .desktopcomponents ul {
     list-style: none;
     padding-left: 2vw;
     margin-top: 1.2em;
 }
 
-.appliances ul li {
-    margin-bottom: 1vh;
+.appliances ul li, .office ul li, .gaming ul li, .networking ul li, .desktopcomponents ul li {
+    margin-bottom: 1vw;
 }
 
-.appliances ul li .categories {
+.appliances ul li .categories, .office ul li .categories, .gaming ul li .categories, .networking ul li .categories, .desktopcomponents ul li .categories {
     font-size: 1.2vw;
     box-sizing: border-box;
     font-weight: 500;
@@ -31,6 +31,6 @@
     transition: all 0.3s ease 0s;
 }
 
-.appliances ul li .categories:hover {
+.appliances ul li .categories:hover, .office ul li .categories:hover, .gaming ul li .categories:hover, .networking ul li .categories:hover, .desktopcomponents ul li .categories:hover {
     color: #FFC107;
 }
