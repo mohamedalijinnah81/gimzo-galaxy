@@ -54,7 +54,7 @@ const Listskeleton = () => {
                 <Skeleton count={1} className='price' />
             </SkeletonTheme>
         </div>
-        <div className='listskeleton'>
+        {/* <div className='listskeleton'>
             <SkeletonTheme baseColor='#F0F0F0' highlightColor='lightgrey'>
                 <Skeleton Square width='11vw' height='11vw' className='imgskeleton' />
                 <Skeleton count={3} className='title' />
@@ -101,7 +101,7 @@ const Listskeleton = () => {
                 <Skeleton count={1} className='rating' />
                 <Skeleton count={1} className='price' />
             </SkeletonTheme>
-        </div>
+        </div> */}
     </div>
     
   )

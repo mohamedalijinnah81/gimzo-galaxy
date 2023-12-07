@@ -2,7 +2,7 @@ import React from 'react'
 import Item from './Item'
 
 const Listitems = ({items}) => {
-    const firstTwelveItems = items.slice(0, 12);
+    const firstTwelveItems = items.slice(0, 6);
   return (
     <ul>
         {firstTwelveItems.map((item) => (
