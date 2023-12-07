@@ -1,0 +1,13 @@
+footer {
+    height: 2vw;
+    margin-top: 1vw;
+    text-align: center;
+    padding: 1vw 0;
+    background-color: #F0F0F0;
+}
+
+footer p {
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: #FFC107;
+}
