@@ -8,27 +8,27 @@ const Appliances = () => {
       <h2>Appliances</h2>
       <ul>
         <li>
-          <Link to={'/category/television'} className='categories'>
+          <Link to={'/gimzo-galaxy/category/television'} className='categories'>
             Televisions
           </Link>
         </li>
         <li>
-          <Link to={'/category/refrigerator'} className='categories'>
+          <Link to={'/gimzo-galaxy/category/refrigerator'} className='categories'>
             Refrigerators
           </Link>
         </li>
         <li>
-          <Link to={'/category/washingmachine'} className='categories'>
+          <Link to={'/gimzo-galaxy/category/washingmachine'} className='categories'>
             Washing Machines
           </Link>
         </li>
         <li>
-          <Link to={'/category/waterpurifier'} className='categories'>
+          <Link to={'/gimzo-galaxy/category/waterpurifier'} className='categories'>
             Water Purifiers
           </Link>
         </li>
         <li>
-          <Link to={'/category/microoven'} className='categories'>
+          <Link to={'/gimzo-galaxy/category/microoven'} className='categories'>
             Micro Ovens
           </Link>
         </li>

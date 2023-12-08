@@ -8,27 +8,27 @@ const Desktopcomponents = () => {
         <h2>PC Components</h2>
         <ul>
             <li>
-            <Link to={'/category/desktopmotherboard'} className='categories'>
+            <Link to={'/gimzo-galaxy/category/desktopmotherboard'} className='categories'>
                 Motherboard
             </Link>
             </li>
             <li>
-            <Link to={'/category/desktopram'} className='categories'>
+            <Link to={'/gimzo-galaxy/category/desktopram'} className='categories'>
                 Ram
             </Link>
             </li>
             <li>
-            <Link to={'/category/ssd'} className='categories'>
+            <Link to={'/gimzo-galaxy/category/ssd'} className='categories'>
                 SSD
             </Link>
             </li>
             <li>
-            <Link to={'/category/smps'} className='categories'>
+            <Link to={'/gimzo-galaxy/category/smps'} className='categories'>
                 SMPS
             </Link>
             </li>
             <li>
-            <Link to={'/category/desktopaccessories'} className='categories'>
+            <Link to={'/gimzo-galaxy/category/desktopaccessories'} className='categories'>
                Accessories
             </Link>
             </li>

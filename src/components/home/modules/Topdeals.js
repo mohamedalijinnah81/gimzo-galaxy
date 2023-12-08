@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom'
 
 
 const Topdeals = () => {
-    const slides = [[Slide1, Slide2, Slide3, Slide4, Slide5], ['/category/smartwatches', '/category/earbuds', '/category/smartphones', '/category/television', '/category/laptops']]
+    const slides = [[Slide1, Slide2, Slide3, Slide4, Slide5], ['/gimzo-galaxy/category/smartwatches', '/gimzo-galaxy/category/earbuds', '/gimzo-galaxy/category/smartphones', '/gimzo-galaxy/category/television', '/gimzo-galaxy/category/laptops']]
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const previousSlide = () => {

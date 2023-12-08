@@ -8,27 +8,27 @@ const Office = () => {
         <h2>Office Electronics</h2>
         <ul>
             <li>
-            <Link to={'/category/printers'} className='categories'>
+            <Link to={'/gimzo-galaxy/category/printers'} className='categories'>
                 Printers
             </Link>
             </li>
             <li>
-            <Link to={'/category/scanners'} className='categories'>
+            <Link to={'/gimzo-galaxy/category/scanners'} className='categories'>
                 Scanners
             </Link>
             </li>
             <li>
-            <Link to={'/category/projectors'} className='categories'>
+            <Link to={'/gimzo-galaxy/category/projectors'} className='categories'>
                 Projectors
             </Link>
             </li>
             <li>
-            <Link to={'/category/shredders'} className='categories'>
+            <Link to={'/gimzo-galaxy/category/shredders'} className='categories'>
                 Shredders
             </Link>
             </li>
             <li>
-            <Link to={'/category/calculators'} className='categories'>
+            <Link to={'/gimzo-galaxy/category/calculators'} className='categories'>
                 Calculators
             </Link>
             </li>

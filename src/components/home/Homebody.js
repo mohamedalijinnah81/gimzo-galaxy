@@ -9,7 +9,7 @@ const Homebody = () => {
     <div className='homebody'>
         <Sidebar />
         <Routes>
-          <Route path='/' element={<Listmodules />} />
+          <Route path='/gimzo-galaxy' element={<Listmodules />} />
         </Routes>
     </div>
   )

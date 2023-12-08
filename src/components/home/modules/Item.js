@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Item = ({ item, src }) => {
   return (
     <li className='item'>
-        <Link to={`/product/${item.asin}`} className='productlinks'>
+        <Link to={`/gimzo-galaxy/product/${item.asin}`} className='productlinks'>
             <img src={item.image} alt="" />
             <h2>{((item.name).length >= 30) ? (item.name).slice(0, 30) + '...' : item.name}</h2>
             <div className="rating">

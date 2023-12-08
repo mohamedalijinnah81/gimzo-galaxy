@@ -8,32 +8,32 @@ const Categories = () => {
         <h2>Categories</h2>
         <ul>
             <li>
-                <Link to={'/category/smartphones'} className='categories'>
+                <Link to={'/gimzo-galaxy/category/smartphones'} className='categories'>
                     Smartphones
                 </Link>
             </li>
             <li>
-                <Link to={'/category/speakers'} className='categories'>
+                <Link to={'/gimzo-galaxy/category/speakers'} className='categories'>
                     Speakers
                 </Link>
             </li>
             <li>
-                <Link to={'/category/earbuds'} className='categories'>
+                <Link to={'/gimzo-galaxy/category/earbuds'} className='categories'>
                     TWS Earbuds
                 </Link>
             </li>
             <li>
-                <Link to={'/category/smartwatches'} className='categories'>
+                <Link to={'/gimzo-galaxy/category/smartwatches'} className='categories'>
                     Smartwatches
                 </Link>
             </li>
             <li>
-                <Link to={'/category/laptops'} className='categories'>
+                <Link to={'/gimzo-galaxy/category/laptops'} className='categories'>
                     Laptops
                 </Link>
             </li>
             <li>
-                <Link to={'/category/mobileaccessories'} className='categories'>
+                <Link to={'/gimzo-galaxy/category/mobileaccessories'} className='categories'>
                     Accessories
                 </Link>
             </li>

@@ -8,27 +8,27 @@ const Gaming = () => {
         <h2>Gaming</h2>
         <ul>
             <li>
-            <Link to={'/category/playstation'} className='categories'>
+            <Link to={'/gimzo-galaxy/category/playstation'} className='categories'>
                 PlayStations
             </Link>
             </li>
             <li>
-            <Link to={'/category/keyboard'} className='categories'>
+            <Link to={'/gimzo-galaxy/category/keyboard'} className='categories'>
                 Keyboards
             </Link>
             </li>
             <li>
-            <Link to={'/category/chairs'} className='categories'>
+            <Link to={'/gimzo-galaxy/category/chairs'} className='categories'>
                 Chairs
             </Link>
             </li>
             <li>
-            <Link to={'/category/mouse'} className='categories'>
+            <Link to={'/gimzo-galaxy/category/mouse'} className='categories'>
                 Mouse
             </Link>
             </li>
             <li>
-            <Link to={'/category/xbox'} className='categories'>
+            <Link to={'/gimzo-galaxy/category/xbox'} className='categories'>
                 Xbox
             </Link>
             </li>

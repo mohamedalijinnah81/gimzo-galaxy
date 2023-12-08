@@ -8,27 +8,27 @@ const Networking = () => {
         <h2>Networking</h2>
         <ul>
             <li>
-            <Link to={'/category/routers'} className='categories'>
+            <Link to={'/gimzo-galaxy/category/routers'} className='categories'>
                 Routers
             </Link>
             </li>
             <li>
-            <Link to={'/category/modems'} className='categories'>
+            <Link to={'/gimzo-galaxy/category/modems'} className='categories'>
                 Modems
             </Link>
             </li>
             <li>
-            <Link to={'/category/networkingswitches'} className='categories'>
+            <Link to={'/gimzo-galaxy/category/networkingswitches'} className='categories'>
                 Networking Switches
             </Link>
             </li>
             <li>
-            <Link to={'/category/wifiadapters'} className='categories'>
+            <Link to={'/gimzo-galaxy/category/wifiadapters'} className='categories'>
                 Wifi Adapters
             </Link>
             </li>
             <li>
-            <Link to={'/category/networkcables'} className='categories'>
+            <Link to={'/gimzo-galaxy/category/networkcables'} className='categories'>
                 Cables
             </Link>
             </li>

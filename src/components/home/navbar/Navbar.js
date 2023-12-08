@@ -12,12 +12,12 @@ const Navbar = ({ searchItem, setSearchItem, handleSubmit }) => {
     <nav>
       <ul>
         <li>
-          <Link to={'/'} className='home'>
+          <Link to={'/gimzo-galaxy'} className='home'>
             <FcElectronics className='logo'/>
           </Link>
         </li>
         <li id='title'>
-          <Link to={'/'} className='home'>
+          <Link to={'/gimzo-galaxy'} className='home'>
             <h2>GimzoGalaxy</h2>
           </Link>
         </li>
@@ -29,7 +29,7 @@ const Navbar = ({ searchItem, setSearchItem, handleSubmit }) => {
       />
       <ul id='options'>
         <li>
-          <Link to={'/offers'} className='options'>
+          <Link to={'/gimzo-galaxy/offers'} className='options'>
             <BiSolidOffer 
               className='nav-icon'
             />
@@ -37,7 +37,7 @@ const Navbar = ({ searchItem, setSearchItem, handleSubmit }) => {
           </Link>
         </li>
         <li>
-          <Link to={'/account'} className='options'>
+          <Link to={'/gimzo-galaxy/account'} className='options'>
             <FaUser 
               className='nav-icon'
             />
@@ -45,7 +45,7 @@ const Navbar = ({ searchItem, setSearchItem, handleSubmit }) => {
           </Link>
         </li>
         <li>
-          <Link to={'/cart'} className='options'>
+          <Link to={'/gimzo-galaxy/cart'} className='options'>
             <FaShoppingCart 
               className='nav-icon'
             />
