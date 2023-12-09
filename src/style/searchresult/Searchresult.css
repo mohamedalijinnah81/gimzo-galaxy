@@ -1,0 +1,77 @@
+.searchresult {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    padding: 1vh 1vw 0.7vw;
+    border-radius: 8px;
+    margin: 2vh 1vw;
+    width: 80vw;
+    box-shadow: 0px 3px 10px 2px lightgray;
+}
+
+.searchresult h2 {
+    margin: 0;
+    font-size: 1.5vw;
+}
+
+.spec {
+    margin-left: 1vw;
+}
+
+.rating2 {
+    margin-top: 1vw;
+    display: flex;
+    align-items: center;
+}
+
+.rating2 p {
+    font-size: 1.2vw;
+    margin-left: 0.4vw;
+}
+
+#users {
+    color: grey;
+    font-size: 1vw;
+    margin-left: 0.4vw;
+}
+
+.star2 {
+    font-size: 1.2vw;
+    color: #FFC107;
+}
+
+.price2 {
+    margin-top: 1vw;
+    font-size: 1.6vw;
+}
+
+.searchresult ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.productlinks2 {
+    padding: 0.7vw;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+    display: flex;
+    background-color: #F0F0F0;
+    margin-top: 1vw;
+    transition: all 0.3s ease 0s;
+}
+
+.productlinks2 h2 {
+    font-size: 1.2vw;
+}
+
+.productlinks2:hover {
+    background-color: lightgrey;
+}
+
+.productlinks2 img {
+    margin: 0;
+    width: 11vw;
+    height: 11vw;
+}

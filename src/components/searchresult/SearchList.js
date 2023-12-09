@@ -1,18 +1,17 @@
 import React from 'react'
 import Listitem from './Listitem'
 
-const SearchList = ({ items }) => {
+const SearchList = ({ searchedList }) => {
   return (
-    <div className='searchlist'>
-        <ul>
-            {items.map((item) => (
-                <Listitem 
-                    item={item}
-                    key={item.asin}
-                />
-            ))}
-        </ul>
-    </div>
+    <ul>
+          {searchedList.map((item) => (
+              <Listitem 
+                  item={item}
+                  key={item.asin}
+              />
+          ))}
+    </ul>
+      
   )
 }
 

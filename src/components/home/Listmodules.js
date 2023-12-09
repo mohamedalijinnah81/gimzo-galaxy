@@ -8,14 +8,27 @@ import Earphones from './modules/earphones/Earphones.js'
 import Cameras from './modules/cameras/Cameras.js'
 
 const Listmodules = () => {
+  const API_KEY = 'b2ffa4149da7cf2c4628d22edb54dd1b';
   return (
     <div className='listmodules'>
-        <Topdeals />
-        <Smartphones />
-        <Laptops />
-        <Cameras />
-        <Smartwatches />
-        <Earphones />
+        <Topdeals 
+          API_KEY = {API_KEY}
+        />
+        <Smartphones 
+            API_KEY = {API_KEY}
+        />
+        <Laptops 
+          API_KEY = {API_KEY}
+        />
+        <Cameras 
+          API_KEY = {API_KEY}
+        />
+        <Smartwatches 
+          API_KEY = {API_KEY}
+        />
+        <Earphones 
+          API_KEY = {API_KEY}
+        />
     </div>
   )
 }
