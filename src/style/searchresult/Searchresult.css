@@ -1,4 +1,4 @@
-.searchresult {
+.searchresult, .categoryresult {
     display: flex;
     flex-direction: column;
     background-color: #FFF;
@@ -9,7 +9,7 @@
     box-shadow: 0px 3px 10px 2px lightgray;
 }
 
-.searchresult h2 {
+.searchresult h2, .categoryresult h2 {
     margin: 0;
     font-size: 1.5vw;
 }
@@ -45,7 +45,7 @@
     font-size: 1.6vw;
 }
 
-.searchresult ul {
+.searchresult ul, .categoryresult ul {
     display: flex;
     flex-direction: column;
     list-style: none;

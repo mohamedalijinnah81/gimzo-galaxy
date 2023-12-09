@@ -38,17 +38,17 @@ const Categories = () => {
                 </Link>
             </li>
             <li>
-                <Link to={'/category/neckbands'} className='categories'>
+                <Link to={'/gimzo-galaxy/category/neckbands'} className='categories'>
                 Neckbands
                 </Link>
             </li>
             <li>
-                <Link to={'/category/smartwatches'} className='categories'>
+                <Link to={'/gimzo-galaxy/category/smartwatches'} className='categories'>
                     Tablets
                 </Link>
             </li>
             <li>
-                <Link to={'/category/storagedevices'} className='categories'>
+                <Link to={'/gimzo-galaxy/category/storagedevices'} className='categories'>
                     Storage Devices
                 </Link>
             </li>

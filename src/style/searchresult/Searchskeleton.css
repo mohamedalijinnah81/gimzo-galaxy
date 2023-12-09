@@ -1,0 +1,32 @@
+.searchskeletonlist {
+    display: flex;
+    padding: 1vh 1vw 0.7vw;
+    border-radius: 5px;
+    background-color: #F0F0F0;
+    margin-top: 1vw;
+}
+
+.searchimg {
+    width: 11vw;
+    height: 11vw;
+    border-radius: 5px;
+    margin-right: 1vw;
+}
+
+.searchtitle {
+    height: 1.2vw;
+    margin-top: 1vw;
+    width: 60vw;
+}
+
+.searchrating {
+    height: 1vw;
+    margin-top: 1vw;
+    width: 10vw;
+}
+
+.searchprice {
+    height: 1.4vw;
+    margin-top: 1vw;
+    width: 10vw;
+}

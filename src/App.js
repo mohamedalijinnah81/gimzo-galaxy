@@ -8,6 +8,7 @@ import Searchresult from './components/searchresult/Searchresult.js';
 import axios from 'axios';
 import Sidebar from './components/home/Sidebar.js';
 import Listmodules from './components/home/Listmodules.js';
+import Categoryresult from './components/categoryresult/Categoryresult.js';
 
 function App() {
   const [searchItem, setSearchItem] = useState('');
@@ -17,6 +18,7 @@ function App() {
   const API_KEY = 'b2ffa4149da7cf2c4628d22edb54dd1b';
 
   const handleSubmit = async (e) => {
+    setIsLoading(true);
     e.preventDefault();
     navigate(`/gimzo-galaxy/search/${searchItem}`);
     const options = {
@@ -58,6 +60,9 @@ function App() {
             searchItem={searchItem}
             searchedList={searchedList}
             isLoading = {isLoading}
+          />} />
+          <Route path='/gimzo-galaxy/category/:categoryName' element={<Categoryresult 
+            API_KEY={API_KEY}
           />} />
         </Routes>
       </div>
