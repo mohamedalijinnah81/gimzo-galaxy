@@ -3,8 +3,8 @@ import { FaStar } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import '../../style/searchresult/Searchresult.css'
 
-const Listitem = ({ item, originalPrice }) => {
-  // console.log(item.asin);
+const Listitem = ({ item}) => {
+  // console.log(originalPrice);
   return (
       <li>
         <Link to={`/gimzo-galaxy/product/${item.asin}`} className='productlinks2'>
@@ -18,7 +18,7 @@ const Listitem = ({ item, originalPrice }) => {
             </div>
             <div className="pricediv2">
               <p className='price2'>{item.price_string}</p>
-              <p className='originalprice2'>{originalPrice.price_string}</p>
+              {item.original_price && <p className='originalprice2'>{item.original_price.price_string}</p>}
             </div>
           </div>
         </Link>

@@ -5,6 +5,7 @@ import axios from 'axios';
 import '../../style/product/Productdetails.css'
 import Productfeatures from './Productfeatures';
 import Aboutproduct from './Aboutproduct';
+import Productskeleton from './Productskeleton';
 
 const Productdetails = ({ API_KEY }) => {
     const { productID } = useParams();
@@ -48,6 +49,7 @@ const Productdetails = ({ API_KEY }) => {
 
   return (
     <div className='productdetails'>
+      {isLoading && <Productskeleton />}
         {!isLoading && <div className="productspec">
             <img src={productDetails.images[0]} alt="" />
             <ProductInfo 

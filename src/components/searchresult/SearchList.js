@@ -8,7 +8,6 @@ const SearchList = ({ searchedList }) => {
               <Listitem 
                   item={item}
                   key={item.asin}
-                  originalPrice={item.original_price}
               />
           ))}
     </ul>

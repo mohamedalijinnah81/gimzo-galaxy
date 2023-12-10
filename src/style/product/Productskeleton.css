@@ -1,0 +1,75 @@
+.productinfoskeleton {
+    display: flex;
+    background-color: #F0F0F0;
+    padding: 1vw 1vw 1vw;
+    margin-top: 0.6vw;
+    border-radius: 8px;
+}
+
+.productspecskeleton {
+    margin-left: 1vw;
+    margin-top: 0.3vw;
+}
+
+.productspectitle {
+    width: 50vw;
+    height: 2vw;
+}
+
+.productspecrating {
+    width: 10vw;
+    margin-top: 1vw;
+    height: 1vw;
+}
+
+.productspecprice {
+    width: 10vw;
+    margin-top: 1vw;
+    height: 1vw;
+}
+
+.productcartbtn {
+    width: 20vw;
+    margin-top: 4.5vw;
+    border: none;
+    border-radius: 50px;
+    height: 3vw;
+}
+
+.productfeatureskeleton {
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.productfeaturetitle {
+    margin-left: 1vw;
+    width: 10vw;
+    height: 2vw;
+}
+
+.productfeaturelist {
+    margin-left: 2vw;
+    margin-top: 1vw;
+    width: 70vw;
+    height: 1vw;
+}
+
+.aboutproductskeleton {
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutproducttitle {
+    margin-left: 1vw;
+    width: 10vw;
+    height: 2vw;
+}
+
+.aboutproductlist {
+    margin-left: 2vw;
+    margin-top: 1vw;
+    width: 70vw;
+    height: 1vw;
+}

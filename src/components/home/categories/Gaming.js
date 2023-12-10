@@ -18,7 +18,7 @@ const Gaming = () => {
             </Link>
             </li>
             <li>
-            <Link to={'/gimzo-galaxy/category/chairs'} className='categories'>
+            <Link to={'/gimzo-galaxy/category/gamingchairs'} className='categories'>
                 Chairs
             </Link>
             </li>

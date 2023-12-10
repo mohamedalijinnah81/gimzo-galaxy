@@ -15,7 +15,7 @@ const Item = ({ item, src, originalPrice }) => {
             </div>
             <div className="pricediv">
               <p className='price'>{item.price_string} </p>
-              <p className='originalprice'>{originalPrice['price_string']}</p>
+              {originalPrice && <p className='originalprice'>{originalPrice['price_string']}</p>}
             </div>
         </Link>
     </li>
