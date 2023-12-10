@@ -3,7 +3,7 @@ import { FaStar } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
 
-const Item = ({ item, src }) => {
+const Item = ({ item, src, originalPrice }) => {
   return (
     <li className='item'>
         <Link to={`/gimzo-galaxy/product/${item.asin}`} className='productlinks'>
@@ -13,7 +13,10 @@ const Item = ({ item, src }) => {
                 <FaStar className='star' />
                 <p>{item.stars}</p>
             </div>
-            <p className='price'>{item.price_string} </p>
+            <div className="pricediv">
+              <p className='price'>{item.price_string} </p>
+              <p className='originalprice'>{originalPrice.price_string}</p>
+            </div>
         </Link>
     </li>
   )

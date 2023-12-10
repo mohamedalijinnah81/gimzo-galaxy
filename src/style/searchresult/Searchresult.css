@@ -43,12 +43,26 @@
 .price2 {
     margin-top: 1vw;
     font-size: 1.6vw;
+    font-weight: 500;
 }
 
 .searchresult ul, .categoryresult ul {
     display: flex;
     flex-direction: column;
     list-style: none;
+}
+
+.pricediv2 {
+    display: flex;
+}
+
+.originalprice2 {
+    font-size: 1.2vw;
+    margin-top: 1.2vw;
+    margin-left: 0.5vw;
+    font-weight: 500;
+    text-decoration: line-through;
+    color: grey;
 }
 
 .productlinks2 {

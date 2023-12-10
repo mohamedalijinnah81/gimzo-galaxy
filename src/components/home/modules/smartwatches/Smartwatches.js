@@ -12,13 +12,13 @@ const Smartwatches = ({ API_KEY }) => {
         async function fetchData() {
           const options = {
             method: 'GET',
-            url: 'https://amazon-data-scraper124.p.rapidapi.com/search/smartwatches',
+            url: 'https://amazon-data-scraper-api2.p.rapidapi.com/search/smartwatches',
             params: {
               api_key: API_KEY
             },
             headers: {
               'X-RapidAPI-Key': 'a07240adf6msha71256c7d443d8ap15d451jsndb014b6076f0',
-              'X-RapidAPI-Host': 'amazon-data-scraper124.p.rapidapi.com'
+              'X-RapidAPI-Host': 'amazon-data-scraper-api2.p.rapidapi.com'
             }
           };
             try {

@@ -15,7 +15,7 @@ function App() {
   const navigate = useNavigate();
   const [searchedList, setSearchedList] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-  const API_KEY = 'b2ffa4149da7cf2c4628d22edb54dd1b';
+  const API_KEY = 'c9fbdbe5e5ad325ea7874c057bec42d7';
 
   const handleSubmit = async (e) => {
     setIsLoading(true);
@@ -23,13 +23,13 @@ function App() {
     navigate(`/gimzo-galaxy/search/${searchItem}`);
     const options = {
       method: 'GET',
-      url: `https://amazon-data-scraper124.p.rapidapi.com/search/${searchItem}`,
+      url: `https://amazon-data-scraper-api2.p.rapidapi.com/search/${searchItem}`,
       params: {
         api_key: API_KEY
       },
       headers: {
         'X-RapidAPI-Key': 'a07240adf6msha71256c7d443d8ap15d451jsndb014b6076f0',
-        'X-RapidAPI-Host': 'amazon-data-scraper124.p.rapidapi.com'
+        'X-RapidAPI-Host': 'amazon-data-scraper-api2.p.rapidapi.com'
       }
     };
       try {
