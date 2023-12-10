@@ -1,0 +1,29 @@
+.aboutproduct {
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+}
+
+.aboutproduct h2 {
+    font-size: 1.6vw;
+    margin: 0;
+}
+
+.aboutproduct  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vw;
+    margin-left: 2vw;
+}
+
+.aboutproduct  ul li {
+    font-size: 1.2vw;
+    font-weight: 450;
+    margin-bottom: 1vw;
+    text-align: justify;
+}
+
+.aboutproduct  ul li strong {
+    font-size: 1.4vw;
+}

@@ -1,0 +1,23 @@
+.productfeatures {
+    padding: 1vw;
+    margin-top: 1vw;
+}
+
+.productfeatures h2 {
+    font-size: 1.8vw;
+    margin: 0;
+}
+
+.productfeatures ul {
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.productfeatures ul li {
+    font-size: 1.3vw;
+    font-weight: 600;
+    margin-left: 3vw;
+    margin-bottom: 1vw;
+    text-align: justify;
+}

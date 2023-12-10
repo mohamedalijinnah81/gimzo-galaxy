@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import '../../style/searchresult/Searchresult.css'
 
 const Listitem = ({ item, originalPrice }) => {
+  // console.log(item.asin);
   return (
       <li>
         <Link to={`/gimzo-galaxy/product/${item.asin}`} className='productlinks2'>

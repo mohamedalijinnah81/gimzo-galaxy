@@ -9,6 +9,7 @@ import axios from 'axios';
 import Sidebar from './components/home/Sidebar.js';
 import Listmodules from './components/home/Listmodules.js';
 import Categoryresult from './components/categoryresult/Categoryresult.js';
+import Productdetails from './components/product/Productdetails.js';
 
 function App() {
   const [searchItem, setSearchItem] = useState('');
@@ -62,6 +63,9 @@ function App() {
             isLoading = {isLoading}
           />} />
           <Route path='/gimzo-galaxy/category/:categoryName' element={<Categoryresult 
+            API_KEY={API_KEY}
+          />} />
+          <Route path='/gimzo-galaxy/product/:productID' element={<Productdetails 
             API_KEY={API_KEY}
           />} />
         </Routes>
