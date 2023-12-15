@@ -9,6 +9,7 @@
 .searchimg {
     width: 11vw;
     height: 11vw;
+    background-color: lightgrey;
     border-radius: 5px;
     margin-right: 1vw;
 }

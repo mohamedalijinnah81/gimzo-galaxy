@@ -16,6 +16,10 @@
     height: 2vw;
 }
 
+.productspecimg {
+    background-color: lightgrey;
+}
+
 .productspecrating {
     width: 10vw;
     margin-top: 1vw;

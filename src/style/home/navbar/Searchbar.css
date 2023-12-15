@@ -1,10 +1,11 @@
 form {
     align-self: center;
-    min-width: 28vw;
+    min-width: 22em;
     margin: 0 1vw;
     height: 2.2em;
     display: flex;
     border: 1px solid grey;
+    box-sizing: border-box;
 }
 
 form input {
@@ -34,4 +35,10 @@ form button:hover {
 
 .search-btn {
     transform: scale(1.4);
+}
+
+@media screen and (max-width: 750px) {
+    form {
+        min-width: 16em;
+    }
 }

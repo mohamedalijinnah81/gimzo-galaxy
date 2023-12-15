@@ -8,3 +8,9 @@
     padding-top: 1vh;
     border-radius: 8px;
 }
+
+@media screen and (max-width: 750px) {
+    .sidebar {
+        display: none;
+    }
+}
