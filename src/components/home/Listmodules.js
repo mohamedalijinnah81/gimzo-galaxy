@@ -8,7 +8,7 @@ import Earphones from './modules/earphones/Earphones.js'
 import Cameras from './modules/cameras/Cameras.js'
 
 const Listmodules = () => {
-  const API_KEY = 'c9fbdbe5e5ad325ea7874c057bec42d7';
+  const API_KEY = '9070025fc68f92ecfc70ce1e99519764';
   return (
     <div className='listmodules'>
         <Topdeals 

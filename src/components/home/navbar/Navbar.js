@@ -28,14 +28,14 @@ const Navbar = ({ searchItem, setSearchItem, handleSubmit }) => {
         handleSubmit = {handleSubmit}
       />
       <ul id='options'>
-        <li>
+        {/* <li>
           <Link to={'/gimzo-galaxy/offers'} className='options'>
             <BiSolidOffer 
               className='nav-icon'
             />
             Offers
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link to={'/gimzo-galaxy/account'} className='options'>
             <FaUser 

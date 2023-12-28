@@ -10,7 +10,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  width: 100%;
+  /* width: 100%; */
+  /* min-width: 400px; */
 }
 
 code {
@@ -30,5 +31,9 @@ code {
 ::-webkit-scrollbar-thumb {
   background-color: #FFC107;
   border-radius: 4px;
+}
+
+#root {
+  min-width: 300px;
 }
 

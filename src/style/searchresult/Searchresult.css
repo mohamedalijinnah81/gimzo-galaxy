@@ -5,7 +5,7 @@
     padding: 1vh 1vw 0.7vw;
     border-radius: 8px;
     margin: 2vh 1vw;
-    width: 80vw;
+    min-width: 780px;
     box-shadow: 0px 3px 10px 2px lightgray;
 }
 
@@ -92,7 +92,7 @@
 
 @media screen and (max-width: 750px) {
     .searchresult, .categoryresult {
-        width: 100%;
+        min-width: 480px;
     }
 
     .searchresult h2, .categoryresult h2 {

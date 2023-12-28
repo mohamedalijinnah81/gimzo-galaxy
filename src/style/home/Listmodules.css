@@ -6,6 +6,8 @@
     /* padding-left: 1vw;
     padding-right: 1vw;
     padding-top: 1vh; */
+    /* width: 70%; */
     width: 100%;
+    /* min-width: 400px; */
     border-radius: 8px;
 }

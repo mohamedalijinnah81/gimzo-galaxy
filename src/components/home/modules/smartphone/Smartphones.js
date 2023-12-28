@@ -23,6 +23,7 @@ const Smartphones = ({ API_KEY }) => {
             try {
                 const response = await axios.request(options);
                 const listItems = response.data.results;
+                // console.log(response.data);
                 setItems(listItems);
                 // console.log(listItems);
                 setIsLoading(false);

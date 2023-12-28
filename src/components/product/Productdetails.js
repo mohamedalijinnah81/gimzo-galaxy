@@ -21,7 +21,7 @@ const Productdetails = ({ API_KEY }) => {
                 method: 'GET',
                 url: `https://amazon-data-scraper-api2.p.rapidapi.com/products/${productID}`,
                 params: {
-                  api_key: 'c9fbdbe5e5ad325ea7874c057bec42d7'
+                  api_key: API_KEY
                 },
                 headers: {
                   'X-RapidAPI-Key': 'a07240adf6msha71256c7d443d8ap15d451jsndb014b6076f0',
@@ -50,8 +50,9 @@ const Productdetails = ({ API_KEY }) => {
   return (
     <div className='productdetails'>
       {isLoading && <Productskeleton />}
-        {!isLoading && <div className="productspec">
-            <img src={productDetails.images[0]} alt="" />
+        {!isLoading && 
+        <div className="productspec">
+            {productDetails.images && <img src={productDetails.images[0]} alt="" />}
             <ProductInfo 
                 name={productDetails.name}
                 rating={productDetails.average_rating}
@@ -60,10 +61,10 @@ const Productdetails = ({ API_KEY }) => {
                 originalPrice={productDetails.list_price}
             />
         </div>}
-          {!isLoading && <Productfeatures 
+          {!isLoading && productDetails.feature_bullets && <Productfeatures 
               productFeatures={productDetails.feature_bullets}
           />}
-          {!isLoading && <Aboutproduct 
+          {!isLoading && productDetails.product_information && <Aboutproduct 
             aboutProduct={productDetails.product_information}
           />}
     </div>

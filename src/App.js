@@ -16,7 +16,7 @@ function App() {
   const navigate = useNavigate();
   const [searchedList, setSearchedList] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-  const API_KEY = 'c9fbdbe5e5ad325ea7874c057bec42d7';
+  const API_KEY = '9070025fc68f92ecfc70ce1e99519764';
 
   const handleSubmit = async (e) => {
     setIsLoading(true);

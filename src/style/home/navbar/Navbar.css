@@ -4,7 +4,8 @@ nav {
     justify-content: space-between;
     box-shadow: 0px 1px 10px 2px lightgray;
     background-color: #FFF;
-    width: 100%;
+    min-width: 930px;
+    /* width: 100%; */
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -15,7 +16,7 @@ nav {
     transform: scale(3.0);
     padding-top: 0.3em;
     padding-left: 0.5em;
-    margin-left: 3vw;
+    margin-left: 1em;
 }
 
 nav ul {
@@ -68,7 +69,8 @@ nav ul #title .home h2 {
 
 @media screen and (max-width: 750px) {
     nav {
-        width: 100%;
+        /* min-width: 500px; */
+        /* padding: 2.8em 0 2.8em 0; */
         margin: 0;
         position: relative;
     }
@@ -82,8 +84,8 @@ nav ul #title .home h2 {
     }
 
     .home .logo {
-        transform: scale(2.6);
-        margin-right: 2em;
+        transform: scale(2.5);
+        padding-left: 0.8em;
     }
 
     #options li {

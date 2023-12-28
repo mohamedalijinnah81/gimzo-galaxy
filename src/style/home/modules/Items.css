@@ -1,21 +1,34 @@
 .smartphones, .laptops, .smartwatches, .earphones, .cameras {
     /* background-color: #F0F0F0; */
     background-color: #FFF;
+    /* width: 100%; */
+    /* width: 82vw; */
+    /* min-width: 700px; */
+    width: 98%;
     margin-top: 2vw;
     margin-left: 1vw;
+}
+
+.viewitems {
+    /* margin-left: 20px; */
+    /* min-width: 700px;  */
+    display: flex;
 }
 
 .smartphones ul, .laptops ul, .smartwatches ul, .earphones ul, .cameras ul {
     list-style: none;
     margin-top: 0.4vw;
+    /* width: 200px; */
     display: flex;
     background-color: #FFF;
+    /* overflow: auto; */
+    width: 100%;
     /* flex-wrap: wrap; */
 }
 
 .smartphones h2, .laptops h2, .smartwatches h2, .earphones h2, .cameras h2 {
     margin: 0;
-    font-size: 1.5vw;
+    font-size: 1.5em;
 }
 
 .productlinks {
@@ -24,10 +37,10 @@
 }
 
 .smartphones ul li, .laptops ul li, .smartwatches ul li, .earphones ul li, .cameras ul li {
-    padding: 0 1vw 0.6vw;
+    padding: 1em 2.4em 0.6em 1em;
     background-color: #F0F0F0;
-    margin-right: 1vw;
-    width: 11vw;
+    margin-right: 0.8em;
+    width: 9em;
     /* height: 20vw; */
     display: flex;
     flex-direction: column;
@@ -35,6 +48,7 @@
     box-shadow: 0px 0px 10px 3px lightgrey;
     transform: scale(0.94);
     transition: all 0.3s ease 0s;
+    /* z-index: -1; */
 }
 
 .smartphones ul li:hover, .laptops ul li:hover, .smartwatches ul li:hover, .earphones ul li:hover, .cameras ul li:hover {
@@ -42,22 +56,24 @@
 }
 
 .smartphones ul li img, .laptops ul li img, .smartwatches ul li img, .earphones ul li img, .cameras ul li img {
-    width: 11vw;
-    height: 11vw;
+    width: 10.4em;
+    height: 12em;
 }
 
 .smartphones ul li h2, .laptops ul li h2, .smartwatches ul li h2, .earphones ul li h2, .cameras ul li h2 {
-    font-size: 1.2vw;
-    margin-top: 0.2vw;
+    font-size: 1.2em;
+    margin-top: 0.2em;
+    margin-bottom: 1em;
 }
 
 .pricediv {
+    margin-top: 1em;
     display: flex;
     align-items: baseline;
 }
 
 .originalprice {
-    font-size: 1vw;
+    font-size: 1em;
     font-weight: 500;
     margin-left: 0.4vw;
     text-decoration: line-through;
@@ -65,22 +81,53 @@
 }
 
 .price {
-    font-size: 1.4vw;
+    font-size: 1.4em;
     font-weight: 500;
 }
 
 .rating {
-    margin: 0.4vw 0;
     display: flex;
     align-items: center;
 }
 
 .rating p {
-    font-size: 1vw;
+    font-size: 1em;
 }
 
 .star {
     color: #FFC107;
-    margin-right: 0.4vw;
-    font-size: 1vw;
+    margin-right: 0.4em;
+    font-size: 1em;
+}
+
+.itemscroll {
+    margin-right: 0.6em;
+    /* margin-left: 10px; */
+    align-self: center;
+    background-color: transparent;
+    height: 40px;
+    padding: 0 10px;
+}
+
+.item-next {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 750px) {
+    .itemscroll {
+        display: none;
+    }
+
+    .smartphones, .laptops, .smartwatches, .earphones, .cameras {
+        min-width: 900px;
+    }
+
+    .smartphones ul, .laptops ul, .smartwatches ul, .earphones ul, .cameras ul {
+        /* overflow: auto; */
+        /* flex-wrap: wrap; */
+    }
+
+    /* .smartphones ul li, .laptops ul li, .smartwatches ul li, .earphones ul li, .cameras ul li {
+        min-width: 100px;
+    } */
 }
