@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gimzo-galaxy/static/css/main.b0429d33.css",
-    "main.js": "/gimzo-galaxy/static/js/main.0cbe503d.js",
+    "main.css": "/gimzo-galaxy/static/css/main.8c02bf6f.css",
+    "main.js": "/gimzo-galaxy/static/js/main.c0198478.js",
     "static/js/787.485011be.chunk.js": "/gimzo-galaxy/static/js/787.485011be.chunk.js",
     "static/media/slide5.webp": "/gimzo-galaxy/static/media/slide5.091e80eae8e432049537.webp",
     "static/media/slide3.jpg": "/gimzo-galaxy/static/media/slide3.65ebca80d63b625dbe12.jpg",
@@ -9,12 +9,12 @@
     "static/media/slide2.jpg": "/gimzo-galaxy/static/media/slide2.5b99a30e19b991632587.jpg",
     "static/media/slide1.jpg": "/gimzo-galaxy/static/media/slide1.1dcddd361bf71bef5706.jpg",
     "index.html": "/gimzo-galaxy/index.html",
-    "main.b0429d33.css.map": "/gimzo-galaxy/static/css/main.b0429d33.css.map",
-    "main.0cbe503d.js.map": "/gimzo-galaxy/static/js/main.0cbe503d.js.map",
+    "main.8c02bf6f.css.map": "/gimzo-galaxy/static/css/main.8c02bf6f.css.map",
+    "main.c0198478.js.map": "/gimzo-galaxy/static/js/main.c0198478.js.map",
     "787.485011be.chunk.js.map": "/gimzo-galaxy/static/js/787.485011be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0429d33.css",
-    "static/js/main.0cbe503d.js"
+    "static/css/main.8c02bf6f.css",
+    "static/js/main.c0198478.js"
   ]
 }
